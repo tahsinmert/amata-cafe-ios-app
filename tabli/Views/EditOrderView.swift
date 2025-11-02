@@ -15,13 +15,16 @@ struct EditOrderView: View {
                 VStack(spacing: 0) {
 
                     ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 10) {
+                        HStack(spacing: 12) {
                             ForEach(MenuCategory.allCases) { category in
-                                MinimalCategoryButton(
+                                let isSelected = selectedCategory == category
+                                let itemCount = viewModel.getMenuItems(for: category).count
+                                
+                                FloatingCategoryPill(
                                     category: category,
-                                    isSelected: selectedCategory == category,
-                                    namespace: categoryNamespace,
-                                    itemCount: viewModel.getMenuItems(for: category).count
+                                    isSelected: isSelected,
+                                    itemCount: itemCount,
+                                    namespace: categoryNamespace
                                 ) {
                                     let impactFeedback = UIImpactFeedbackGenerator(style: .light)
                                     impactFeedback.impactOccurred()
@@ -34,7 +37,7 @@ struct EditOrderView: View {
                         }
                         .padding(.horizontal, 20)
                     }
-                    .padding(.vertical, 12)
+                    .padding(.vertical, 16)
                     .background(AppTheme.cardBackground.opacity(0.8))
                     
 

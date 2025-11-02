@@ -3,6 +3,7 @@ import SwiftUI
 @main
 struct tabliApp: App {
     @StateObject private var localizationManager: LocalizationManager
+    @StateObject private var profileViewModel = UserProfileViewModel()
     
     init() {
         let manager = LocalizationManager.shared
@@ -13,6 +14,7 @@ struct tabliApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(localizationManager)
+                .environmentObject(profileViewModel)
         }
     }
 }

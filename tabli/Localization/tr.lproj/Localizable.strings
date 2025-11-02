@@ -28,6 +28,8 @@
 // MARK: - Table Selection
 "select_your_table" = "Masanızı Seçin";
 "choose_table_message" = "Sipariş vermek için masa numaranızı seçin";
+"tap_to_select" = "Seçmek için dokunun";
+"change" = "Değiştir";
 
 // MARK: - Menu
 "menu" = "Menü";
@@ -89,3 +91,28 @@
 "add_favorites_message" = "Beğendiğiniz ürünleri favorilere ekleyin";
 "no_order_history" = "Sipariş Geçmişi Yok";
 "no_order_history_message" = "Henüz sipariş vermediniz";
+"profile" = "Profil";
+"edit_profile" = "Profili Düzenle";
+"create_profile" = "Profil Oluştur";
+"name" = "İsim";
+"email" = "E-posta";
+"phone" = "Telefon";
+"personal_information" = "Kişisel Bilgiler";
+"profile_information" = "Profil Bilgileri";
+"create_profile_message" = "Profilinizi oluşturarak kişiselleştirilmiş deneyim yaşayın";
+"member_since" = "Üye olma tarihi";
+"notifications" = "Bildirimler";
+"dietary_restrictions" = "Diyet Kısıtlamaları";
+"statistics" = "İstatistikler";
+"cart_items" = "Sepet Öğeleri";
+"dark_mode" = "Karanlık Mod";
+"user" = "Kullanıcı";
+"language" = "Dil";
+"about" = "Hakkında";
+"about_app" = "Amata Hakkında";
+"app_version" = "Sürüm";
+"app_description" = "Amata, müşterilerin QR kodlar kullanarak masalarından doğrudan sipariş vermesine olanak tanıyan modern bir kafe sipariş uygulamasıdır.";
+"developer_info" = "Geliştirici Bilgileri";
+"contact" = "İletişim";
+"privacy_policy" = "Gizlilik Politikası";
+"terms_of_service" = "Hizmet Şartları";

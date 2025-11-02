@@ -43,24 +43,44 @@ Amata, Apple'ın minimalizm felsefesi ile Paris kahvehanelerinin sıcak atmosfer
 ## ✨ Amata Cafe Uygulaması Özellikleri
 
 ### 📋 Menü ve Sipariş Özellikleri
-- **Menü Yönetimi**: Kategorilere ayrılmış (Kahve, Pastane, Soğuk İçecekler, Atıştırmalıklar, Tatlılar) zengin menü görüntüleme
-- **Akıllı Arama**: Menü öğelerinde anlık arama ve filtreleme
-- **Ürün Detay Sayfası**: Büyük görseller, açıklamalar ve miktar seçimi ile detaylı ürün görüntüleme
-- **Sepet Yönetimi**: Kolay sipariş ekleme/çıkarma ve miktar kontrolü
+- **Modern Menü Görüntüleme**: Glassmorphism, parallax scroll ve 3D efektlerle zengin menü deneyimi
+- **Kategorilere Ayrılmış Menü**: Kahve, Pastane, Soğuk İçecekler, Atıştırmalıklar, Tatlılar
+- **Akıllı Arama**: Menü öğelerinde anlık arama ve filtreleme (keyboard dismiss desteği)
+- **Ürün Detay Sayfası**: Modern tasarım, parallax hero section, 3D rotation efektleri, büyük görseller, detaylı açıklamalar
+- **Sepet Yönetimi**: Floating cards, glassmorphism, modern quantity controls, 3D effects
 - **Özel Notlar**: Siparişe özel talimatlar, alerji bilgileri ve özel istekler ekleme
+- **Sipariş Düzenleme**: Bekleyen siparişleri düzenleme ve değiştirme
 
 ### 📱 Teknoloji ve İnovasyon
-- **QR Kod Tarama**: Gerçek zamanlı kamera ile masa numarası otomatik seçimi
-- **Sipariş Takibi**: Gerçek zamanlı sipariş durumu takibi (Beklemede → Hazırlanıyor → Hazır)
-- **Favoriler Sistemi**: Sık sipariş edilen ürünleri favorilere ekleme ve hızlı erişim
-- **Sipariş Geçmişi**: Geçmiş siparişleri görüntüleme ve yeniden sipariş verme
+- **QR Kod Tarama**: Gerçek zamanlı kamera entegrasyonu ile masa numarası otomatik seçimi
+- **Sipariş Takibi**: Gerçek zamanlı sipariş durumu takibi (Beklemede → Hazırlanıyor → Hazır) - animasyonlu progress indicator
+- **Favoriler Sistemi**: Ürünleri favorilere ekleme, kategorilere ayrılmış görüntüleme ve hızlı erişim
+- **Sipariş Geçmişi**: Geçmiş siparişleri görüntüleme, detaylı bilgiler ve yeniden sipariş verme
+
+### 👤 Kullanıcı Profili
+- **Kullanıcı Profili**: Kişisel bilgiler (isim, email, telefon), profil fotoğrafı
+- **İstatistikler**: Favori sayısı, sipariş geçmişi, sepet ürünleri
+- **Tercihler**: Bildirim ayarları, dil tercihleri
+- **Üyelik Bilgileri**: Üye olma tarihi ve hesap detayları
+
+### 🎨 Modern Tasarım Özellikleri
+- **Glassmorphism**: Ultra thin material efektleri ile şeffaf kartlar
+- **Parallax Scrolling**: Derinlik hissi veren parallax scroll efektleri
+- **3D Effects**: Rotation ve perspective efektleri ile 3D görünümler
+- **Floating Elements**: Yüzen butonlar, kartlar ve animasyonlu öğeler
+- **Gradient Backgrounds**: Canlı gradient animasyonları ve geçişler
+- **Particle Effects**: Arka plan parçacık efektleri ve coffee steam animasyonları
+- **Shimmer Effects**: Yanıp sönen ışık efektleri (shimmer) butonlarda ve kartlarda
+- **Staggered Animations**: Kademeli animasyonlar ile akıcı geçişler
+- **Glow Effects**: Radial glow efektleri ve ışık halkaları
 
 ### 🌍 Kullanıcı Deneyimi
-- **Çoklu Dil Desteği**: Türkçe ve İngilizce tam lokalizasyon
-- **Özel Tema**: Sıcak kahve tonlarında (#EDE0D4, #DDB892, #B08968, #7F5539) minimal ve şık tasarım
-- **Animasyonlar**: Yumuşak spring animasyonları ile akıcı geçişler
-- **Haptic Feedback**: Dokunsal geri bildirimler ile gelişmiş kullanıcı etkileşimi
-- **Adaptif UI**: iPhone ve iPad için optimize edilmiş arayüz
+- **Çoklu Dil Desteği**: Türkçe ve İngilizce tam lokalizasyon (100+ string)
+- **Özel Tema**: Sıcak kahve tonlarında (#EDE0D4, #DDB892, #B08968, #7F5539) premium ve sıcak tasarım
+- **Animasyonlar**: Yumuşak spring animasyonları, coffee steam efekti, pulse ve breathing animasyonları
+- **Haptic Feedback**: Light, Medium, Heavy seviyelerinde dokunsal geri bildirimler
+- **Context Menu**: Ürün kartlarında haptic touch (3D Touch) desteği
+- **Adaptif UI**: iPhone ve iPad için optimize edilmiş responsive arayüz
 
 ---
 
@@ -86,6 +106,11 @@ Amata uygulaması, modern iOS geliştirme standartlarına uygun olarak geliştir
 - **Custom Color Palette**: Sıcak kahve tonlarında özel renk paleti
 - **Spring Animations**: Yumuşak ve doğal animasyonlar
 - **Matched Geometry Effects**: Akıcı geçiş animasyonları
+- **Glassmorphism**: Ultra thin material efektleri
+- **Parallax Effects**: Derinlik hissi veren scroll efektleri
+- **3D Transforms**: Rotation ve perspective efektleri
+- **Particle Systems**: Arka plan parçacık efektleri
+- **Shimmer Effects**: Yanıp sönen ışık efektleri
 
 ---
 
@@ -193,6 +218,13 @@ veya Finder'dan `tabli.xcodeproj` dosyasına çift tıklayın.
 #### 📝 Sipariş Düzenleme
 - **Bekleyen Siparişler**: Sipariş durumu "Beklemede" iken siparişi düzenleyebilirsiniz
 - **Sipariş Detayları**: Sipariş durumu sayfasından "Düzenle" butonuna tıklayın
+- **Modern Edit Interface**: Glassmorphism ve parallax efektleri ile modern düzenleme arayüzü
+
+#### 👤 Kullanıcı Profili
+- **Profil Oluşturma**: İsim, email, telefon bilgileri ile profil oluşturma
+- **Profil Fotoğrafı**: Fotoğraf kütüphanesinden profil fotoğrafı seçme
+- **İstatistikler**: Favori sayısı, sipariş geçmişi, sepet ürünleri görüntüleme
+- **Tercihler**: Bildirim ayarları, dil tercihleri yönetimi
 
 #### 🌍 Dil Değiştirme
 - Ana sayfanın sağ üst köşesindeki dil butonuna tıklayın
@@ -200,8 +232,14 @@ veya Finder'dan `tabli.xcodeproj` dosyasına çift tıklayın.
 - Dil değişikliği uygulama genelinde geçerli olur
 
 #### 🔍 Arama Özelliği
-- Menü sayfasındaki arama çubuğuna ürün adı yazarak arama yapabilirsiniz
+- Menü sayfasındaki floating search bar'a ürün adı yazarak arama yapabilirsiniz
 - Arama tüm kategorilerde çalışır
+- Keyboard dismiss desteği ile kolay kullanım
+
+#### 🎯 Haptic Touch (3D Touch)
+- Ürün kartlarında uzun basma (haptic touch) ile context menu açılır
+- Context menu'den hızlı işlemler: Sepete Ekle, Detayları Gör, Favorilere Ekle
+- Preview ile büyük ürün görseli ve detaylar
 
 ---
 
@@ -213,10 +251,12 @@ Amata, **MVVM (Model-View-ViewModel)** mimarisi ile organize edilmiştir:
 tabli/
 ├── Models/                          # Veri Modelleri
 │   ├── MenuItem.swift               # MenuItem, OrderItem, Table, MenuCategory
-│   └── SampleData.swift             # Örnek menü verileri ve test datası
+│   ├── SampleData.swift             # Örnek menü verileri ve test datası
+│   └── User.swift                   # User, UserPreferences model
 │
 ├── ViewModels/                      # İş Mantığı Katmanı
-│   └── OrderViewModel.swift        # Sipariş, sepet, favoriler, geçmiş yönetimi
+│   ├── OrderViewModel.swift        # Sipariş, sepet, favoriler, geçmiş yönetimi
+│   └── UserProfileViewModel.swift   # Kullanıcı profil yönetimi
 │
 ├── Views/                           # UI Katmanı (SwiftUI)
 │   ├── SplashView.swift            # Açılış ekranı ve animasyonlar
@@ -234,7 +274,9 @@ tabli/
 │   ├── QRCodeScannerViewController.swift # QR kod tarama (UIKit)
 │   ├── QRCodeScannerRepresentable.swift # SwiftUI-UIKit bridge
 │   ├── LanguagePickerView.swift   # Dil seçimi
-│   └── SettingsView.swift         # Ayarlar sayfası
+│   ├── SettingsView.swift         # Ayarlar sayfası
+│   ├── ProfileView.swift          # Kullanıcı profili görüntüleme ve düzenleme
+│   └── AboutView.swift            # Uygulama hakkında sayfası
 │
 ├── Theme/                           # Tasarım Sistemi
 │   └── AppTheme.swift              # Renk paleti, font, animasyon ayarları
@@ -290,12 +332,21 @@ Amata, **sıcak kahve tonlarında minimalist** bir tasarım dilini benimser. Tas
 - **Süre**: 0.3-0.6 saniye arası
 - **Geçişler**: Fade, scale, slide kombinasyonları
 - **Haptic Feedback**: Light, Medium, Heavy seviyelerinde
+- **Coffee Steam Animation**: Logo üzerinde yükselen kahve buharı efekti
+- **Particle Effects**: Arka planda yüzen parçacık efektleri
+- **Glow Effects**: Expanding glow rings ve radial glow efektleri
+- **Shimmer Effects**: Yanıp sönen ışık efektleri (shimmer)
+- **3D Rotation**: Perspective ve rotation efektleri
+- **Parallax Scroll**: Scroll'a bağlı parallax hareket efektleri
+- **Staggered Animations**: Kademeli animasyonlar (delay ile)
 
 ### 📐 Layout Kuralları
-- **Köşe Yuvarlamaları**: 16pt-28pt (kartlar, butonlar)
-- **Padding**: 16pt-24pt (standart boşluklar)
-- **Gölgeler**: Opacity 0.08-0.15, radius 10-20pt
+- **Köşe Yuvarlamaları**: 16pt-32pt (kartlar, butonlar)
+- **Padding**: 16pt-28pt (standart boşluklar)
+- **Gölgeler**: Opacity 0.08-0.25, radius 10-30pt (derinlik hissi)
 - **Grid System**: 12-column responsive grid (iPad için)
+- **UnevenRoundedRectangle**: iOS 17+ için özel köşe yuvarlamaları
+- **Glassmorphism**: Ultra thin material ile şeffaf efektler
 
 ### 🎯 UX Prensipleri
 - **Minimalizm**: Gereksiz UI elementlerinden kaçınma
@@ -429,7 +480,32 @@ Gelecek güncellemeler:
 
 ## 🔄 Versiyon Geçmişi | Changelog
 
-### v1.0.0 (Kasım 2025) - İlk Sürüm
+### v1.1.0 (Aralık 2024) - Modern Tasarım Güncellemesi
+#### Modern Tasarım Özellikleri
+- ✅ **Glassmorphism**: Ultra thin material efektleri ile şeffaf kartlar ve butonlar
+- ✅ **Parallax Scrolling**: Derinlik hissi veren parallax scroll efektleri tüm sayfalarda
+- ✅ **3D Effects**: Rotation ve perspective efektleri ile 3D görünümler
+- ✅ **Floating Elements**: Yüzen butonlar, kartlar ve animasyonlu öğeler
+- ✅ **Gradient Backgrounds**: Canlı gradient animasyonları ve geçişler
+- ✅ **Particle Effects**: Arka plan parçacık efektleri ve coffee steam animasyonları
+- ✅ **Shimmer Effects**: Yanıp sönen ışık efektleri (shimmer) butonlarda ve kartlarda
+- ✅ **Staggered Animations**: Kademeli animasyonlar ile akıcı geçişler
+- ✅ **Glow Effects**: Radial glow efektleri ve expanding glow rings
+
+#### Yeni Özellikler
+- ✅ **Kullanıcı Profili**: Profil oluşturma, fotoğraf yükleme, istatistikler görüntüleme
+- ✅ **Modern Splash Screen**: Coffee steam, particles, glow effects ile animasyonlu açılış
+- ✅ **Coffee Steam Animation**: Logo üzerinde yükselen kahve buharı efekti
+- ✅ **Haptic Touch Support**: Ürün kartlarında context menu ile hızlı işlemler
+
+#### Tasarım İyileştirmeleri
+- ✅ **Tüm Sayfalar Modernize**: CartView, OrderConfirmationView, FavoritesView, OrderHistoryView, OrderStatusView, ProfileView, QRCodeScannerView, ProductDetailView tamamen yenilendi
+- ✅ **Modern Menü Tasarımı**: Parallax hero section, floating category pills, staggered product grid
+- ✅ **Modern Sepet Tasarımı**: Floating summary card, 3D item cards, shimmer effects
+- ✅ **Modern Sipariş Onay**: Expanding rings, particle confetti, modern animations
+- ✅ **HomeView Optimizasyonu**: Tüm öğeler tek sayfaya sığacak şekilde optimize edildi
+
+### v1.0.0 (Kasım 2024) - İlk Sürüm
 #### Yeni Özellikler
 - ✅ **QR Kod Tarama**: Gerçek zamanlı kamera ile masa seçimi
 - ✅ **Favoriler Sistemi**: Ürünleri favorilere ekleme ve hızlı erişim
@@ -516,24 +592,44 @@ Amata delivers a **"premium yet cozy"** user experience that combines Apple's mi
 ## ✨ Amata Cafe App Features
 
 ### 📋 Menu and Ordering Features
-- **Menu Management**: Rich menu display organized by categories (Coffee, Pastries, Cold Drinks, Snacks, Desserts)
-- **Smart Search**: Real-time search and filtering of menu items
-- **Product Detail Page**: Detailed product view with large images, descriptions, and quantity selection
-- **Cart Management**: Easy order addition/removal and quantity control
+- **Modern Menu Display**: Rich menu experience with glassmorphism, parallax scroll and 3D effects
+- **Category-Organized Menu**: Coffee, Pastries, Cold Drinks, Snacks, Desserts
+- **Smart Search**: Real-time search and filtering of menu items with keyboard dismiss support
+- **Product Detail Page**: Modern design with parallax hero section, 3D rotation effects, large images, detailed descriptions
+- **Cart Management**: Floating cards, glassmorphism, modern quantity controls, 3D effects
 - **Special Notes**: Add special instructions, allergy information, and custom requests to orders
+- **Order Editing**: Edit and modify pending orders
 
 ### 📱 Technology and Innovation
-- **QR Code Scanning**: Real-time camera for automatic table number selection
-- **Order Tracking**: Real-time order status tracking (Pending → Preparing → Ready)
-- **Favorites System**: Add frequently ordered products to favorites for quick access
-- **Order History**: View past orders and reorder items
+- **QR Code Scanning**: Real-time camera integration for automatic table number selection
+- **Order Tracking**: Real-time order status tracking (Pending → Preparing → Ready) with animated progress indicator
+- **Favorites System**: Add products to favorites, categorized display and quick access
+- **Order History**: View past orders with detailed information and reorder functionality
+
+### 👤 User Profile
+- **User Profile**: Personal information (name, email, phone), profile photo
+- **Statistics**: Favorite count, order history, cart items
+- **Preferences**: Notification settings, language preferences
+- **Membership Info**: Join date and account details
+
+### 🎨 Modern Design Features
+- **Glassmorphism**: Transparent cards with ultra thin material effects
+- **Parallax Scrolling**: Depth-creating parallax scroll effects
+- **3D Effects**: 3D views with rotation and perspective effects
+- **Floating Elements**: Floating buttons, cards and animated elements
+- **Gradient Backgrounds**: Live gradient animations and transitions
+- **Particle Effects**: Background particle effects and coffee steam animations
+- **Shimmer Effects**: Flickering light effects (shimmer) on buttons and cards
+- **Staggered Animations**: Smooth transitions with staggered animations
+- **Glow Effects**: Radial glow effects and light rings
 
 ### 🌍 User Experience
-- **Multi-language Support**: Full localization in Turkish and English
-- **Custom Theme**: Minimal and elegant design in warm coffee tones (#EDE0D4, #DDB892, #B08968, #7F5539)
-- **Animations**: Smooth spring animations for fluid transitions
-- **Haptic Feedback**: Enhanced user interactions with tactile feedback
-- **Adaptive UI**: Optimized interface for iPhone and iPad
+- **Multi-language Support**: Full localization in Turkish and English (100+ strings)
+- **Custom Theme**: Premium and warm design in warm coffee tones (#EDE0D4, #DDB892, #B08968, #7F5539)
+- **Animations**: Smooth spring animations, coffee steam effect, pulse and breathing animations
+- **Haptic Feedback**: Light, Medium, Heavy levels of tactile feedback
+- **Context Menu**: Haptic touch (3D Touch) support on product cards
+- **Adaptive UI**: Optimized responsive interface for iPhone and iPad
 
 ---
 
@@ -559,6 +655,11 @@ Amata is built according to modern iOS development standards:
 - **Custom Color Palette**: Special color palette in warm coffee tones
 - **Spring Animations**: Smooth and natural animations
 - **Matched Geometry Effects**: Fluid transition animations
+- **Glassmorphism**: Ultra thin material effects
+- **Parallax Effects**: Depth-creating scroll effects
+- **3D Transforms**: Rotation and perspective effects
+- **Particle Systems**: Background particle effects
+- **Shimmer Effects**: Flickering light effects
 
 ---
 
@@ -666,6 +767,13 @@ or double-click `tabli.xcodeproj` in Finder.
 #### 📝 Order Editing
 - **Pending Orders**: You can edit orders when status is "Pending"
 - **Order Details**: Click "Edit" button from order status page
+- **Modern Edit Interface**: Modern editing interface with glassmorphism and parallax effects
+
+#### 👤 User Profile
+- **Create Profile**: Create profile with name, email, phone information
+- **Profile Photo**: Select profile photo from photo library
+- **Statistics**: View favorite count, order history, cart items
+- **Preferences**: Manage notification settings, language preferences
 
 #### 🌍 Language Change
 - Click language button on top right of home page
@@ -673,8 +781,14 @@ or double-click `tabli.xcodeproj` in Finder.
 - Language change applies app-wide
 
 #### 🔍 Search Feature
-- Type product name in search bar on menu page to search
+- Type product name in floating search bar on menu page to search
 - Search works across all categories
+- Keyboard dismiss support for easy use
+
+#### 🎯 Haptic Touch (3D Touch)
+- Long press on product cards to open context menu
+- Quick actions from context menu: Add to Cart, View Details, Add to Favorites
+- Preview with large product image and details
 
 ---
 
@@ -763,12 +877,21 @@ Amata adopts a **minimalist design language in warm coffee tones**. The design c
 - **Duration**: 0.3-0.6 seconds
 - **Transitions**: Fade, scale, slide combinations
 - **Haptic Feedback**: Light, Medium, Heavy levels
+- **Coffee Steam Animation**: Rising coffee steam effect above logo
+- **Particle Effects**: Floating particle effects in background
+- **Glow Effects**: Expanding glow rings and radial glow effects
+- **Shimmer Effects**: Flickering light effects (shimmer)
+- **3D Rotation**: Perspective and rotation effects
+- **Parallax Scroll**: Scroll-dependent parallax movement effects
+- **Staggered Animations**: Staggered animations with delays
 
 ### 📐 Layout Rules
-- **Corner Radius**: 16pt-28pt (cards, buttons)
-- **Padding**: 16pt-24pt (standard spacing)
-- **Shadows**: Opacity 0.08-0.15, radius 10-20pt
+- **Corner Radius**: 16pt-32pt (cards, buttons)
+- **Padding**: 16pt-28pt (standard spacing)
+- **Shadows**: Opacity 0.08-0.25, radius 10-30pt (depth perception)
 - **Grid System**: 12-column responsive grid (for iPad)
+- **UnevenRoundedRectangle**: Custom corner rounding for iOS 17+
+- **Glassmorphism**: Transparent effects with ultra thin material
 
 ### 🎯 UX Principles
 - **Minimalism**: Avoiding unnecessary UI elements
@@ -892,7 +1015,32 @@ Upcoming updates:
 
 ## 🔄 Version History | Changelog
 
-### v1.0.0 (November 2025) - Initial Release
+### v1.1.0 (December 2024) - Modern Design Update
+#### Modern Design Features
+- ✅ **Glassmorphism**: Transparent cards and buttons with ultra thin material effects
+- ✅ **Parallax Scrolling**: Depth-creating parallax scroll effects across all pages
+- ✅ **3D Effects**: 3D views with rotation and perspective effects
+- ✅ **Floating Elements**: Floating buttons, cards and animated elements
+- ✅ **Gradient Backgrounds**: Live gradient animations and transitions
+- ✅ **Particle Effects**: Background particle effects and coffee steam animations
+- ✅ **Shimmer Effects**: Flickering light effects (shimmer) on buttons and cards
+- ✅ **Staggered Animations**: Smooth transitions with staggered animations
+- ✅ **Glow Effects**: Radial glow effects and expanding glow rings
+
+#### New Features
+- ✅ **User Profile**: Profile creation, photo upload, statistics display
+- ✅ **Modern Splash Screen**: Animated launch with coffee steam, particles, glow effects
+- ✅ **Coffee Steam Animation**: Rising coffee steam effect above logo
+- ✅ **Haptic Touch Support**: Quick actions with context menu on product cards
+
+#### Design Improvements
+- ✅ **All Pages Modernized**: CartView, OrderConfirmationView, FavoritesView, OrderHistoryView, OrderStatusView, ProfileView, QRCodeScannerView, ProductDetailView completely redesigned
+- ✅ **Modern Menu Design**: Parallax hero section, floating category pills, staggered product grid
+- ✅ **Modern Cart Design**: Floating summary card, 3D item cards, shimmer effects
+- ✅ **Modern Order Confirmation**: Expanding rings, particle confetti, modern animations
+- ✅ **HomeView Optimization**: All elements optimized to fit on a single page
+
+### v1.0.0 (November 2024) - Initial Release
 #### New Features
 - ✅ **QR Code Scanning**: Real-time camera for table selection
 - ✅ **Favorites System**: Add products to favorites and quick access

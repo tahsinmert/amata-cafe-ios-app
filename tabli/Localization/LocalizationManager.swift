@@ -2,7 +2,7 @@ import SwiftUI
 import Foundation
 import Combine
 
-enum AppLanguage: String, CaseIterable, Identifiable {
+enum AppLanguage: String, CaseIterable, Identifiable, Codable {
     case english = "en"
     case turkish = "tr"
     

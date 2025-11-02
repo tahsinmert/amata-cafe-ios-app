@@ -2,21 +2,20 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var viewModel = OrderViewModel()
+    @EnvironmentObject var profileViewModel: UserProfileViewModel
     @State private var showSplash = true
     
     var body: some View {
-        ZStack {
-
-            AppTheme.background
-                .ignoresSafeArea()
-            
-
+        Group {
             if showSplash {
                 SplashView(showHome: $showSplash)
+                    .transition(.opacity)
             } else {
                 HomeView(viewModel: viewModel)
+                    .transition(.opacity)
             }
         }
+        .animation(.easeInOut(duration: 0.5), value: showSplash)
     }
 }
 

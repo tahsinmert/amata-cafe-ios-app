@@ -28,6 +28,8 @@
 // MARK: - Table Selection
 "select_your_table" = "Select Your Table";
 "choose_table_message" = "Choose your table number to start ordering";
+"tap_to_select" = "Tap to select";
+"change" = "Change";
 
 // MARK: - Menu
 "menu" = "Menu";
@@ -89,3 +91,28 @@
 "add_favorites_message" = "Add your favorite items to favorites";
 "no_order_history" = "No Order History";
 "no_order_history_message" = "You haven't placed any orders yet";
+"profile" = "Profile";
+"edit_profile" = "Edit Profile";
+"create_profile" = "Create Profile";
+"name" = "Name";
+"email" = "Email";
+"phone" = "Phone";
+"personal_information" = "Personal Information";
+"profile_information" = "Profile Information";
+"create_profile_message" = "Create your profile to enjoy a personalized experience";
+"member_since" = "Member since";
+"notifications" = "Notifications";
+"dietary_restrictions" = "Dietary Restrictions";
+"statistics" = "Statistics";
+"cart_items" = "Cart Items";
+"dark_mode" = "Dark Mode";
+"user" = "User";
+"language" = "Language";
+"about" = "About";
+"about_app" = "About Amata";
+"app_version" = "Version";
+"app_description" = "Amata is a modern cafe ordering app that allows customers to order directly from their table using QR codes.";
+"developer_info" = "Developer Information";
+"contact" = "Contact";
+"privacy_policy" = "Privacy Policy";
+"terms_of_service" = "Terms of Service";
