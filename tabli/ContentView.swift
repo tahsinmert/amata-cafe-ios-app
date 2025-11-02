@@ -1,21 +1,22 @@
-//
-//  ContentView.swift
-//  tabli
-//
-//  Created by Tahsin Mert Mutlu on 02.11.2025.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = OrderViewModel()
+    @State private var showSplash = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+
+            AppTheme.background
+                .ignoresSafeArea()
+            
+
+            if showSplash {
+                SplashView(showHome: $showSplash)
+            } else {
+                HomeView(viewModel: viewModel)
+            }
         }
-        .padding()
     }
 }
 

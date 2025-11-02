@@ -1,17 +1,18 @@
-//
-//  tabliApp.swift
-//  tabli
-//
-//  Created by Tahsin Mert Mutlu on 02.11.2025.
-//
-
 import SwiftUI
 
 @main
 struct tabliApp: App {
+    @StateObject private var localizationManager: LocalizationManager
+    
+    init() {
+        let manager = LocalizationManager.shared
+        _localizationManager = StateObject(wrappedValue: manager)
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(localizationManager)
         }
     }
 }
